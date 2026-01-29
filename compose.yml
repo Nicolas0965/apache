@@ -28,7 +28,7 @@ services:
     hostname: cliente1
     networks:
       redeapache:
-        ipv4_address: 192.168.58.150
+        ipv4_address: 192.168.58.99
     environment:
       - DISPLAY=${DISPLAY}
     volumes:

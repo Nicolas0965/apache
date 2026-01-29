@@ -1,9 +1,22 @@
-<RequireAll>
     AuthType Basic
     AuthName directivos
     AuthBasicProvider file
+    AuthGroupFile "/opt/web/omeusitio.lan/htdocs/.htgrupos"
     AuthUserFile "/opt/web/omeusitio.lan/htdocs/.htusuarios"
-    Require user carlos juan
 
-
-</RequireAll>
+<RequireAny>
+    Require user manolo
+    <RequireAll>
+        Require group admin
+        Require group administradores
+        <RequireAny>
+            Require group vendas
+            Require group comerciais
+        </RequireAny>
+        <RequireNone>
+            Require group temporais
+            Require group interinos
+        </RequireNone>
+    </RequireAll>
+    Require ip 192.168.58.99
+</RequireAny>
