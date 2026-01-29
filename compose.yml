@@ -8,6 +8,7 @@ services:
       - ./apache/tarefa3.conf:/etc/apache2/sites-enabled/tarefa3.conf
       - ./exemplo.lan:/opt/web/exemplo.lan
       - ./omeusitio.lan:/opt/web/omeusitio.lan
+      - ./certificados:/certificados
     networks:
       redeapache:
         ipv4_address: 192.168.58.200
