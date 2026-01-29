@@ -1,0 +1,9 @@
+<RequireAll>
+    AuthType Basic
+    AuthName directivos
+    AuthBasicProvider file
+    AuthUserFile "/opt/web/omeusitio.lan/htdocs/.htusuarios"
+    Require user carlos juan
+
+
+</RequireAll>

@@ -1,0 +1,11 @@
+AuthType Basic
+AuthName "Restrinxido"
+AuthBasicProvider file
+AuthUserFile "/opt/web/omeusitio.lan/htdocs/.htusuarios"
+AuthGroupFile "/opt/web/omeusitio.lan/htdocs/.htgrupos"
+Require user manolo
+<RequireAll>
+    Require group directivos
+    Require group accionistas
+    Require not group temporais
+</RequireAll>

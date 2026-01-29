@@ -1,0 +1,5 @@
+AuthType Digest
+AuthName directivos
+AuthDigestProvider file
+AuthUserFile "/opt/web/omeusitio.lan/htdocs/.htudigest"
+Require user carlos juan
