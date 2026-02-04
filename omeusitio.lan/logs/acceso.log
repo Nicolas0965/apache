@@ -18,3 +18,6 @@
 192.168.58.20 [02/Feb/2026:09:58:14 +0000] 339 529 0 404 - GET /ddddd/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
 192.168.58.20 [02/Feb/2026:10:01:45 +0000] 343 764 0 401 - GET /reservado/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
 192.168.58.20 [02/Feb/2026:10:05:51 +0000] 342 548 0 403 - GET /.htaccess HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+192.168.58.99 [04/Feb/2026:11:28:39 +0000] 333 518 0 200 - GET / HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+192.168.58.99 [04/Feb/2026:11:28:39 +0000] 350 528 0 404 - GET /favicon.ico HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+192.168.58.99 [04/Feb/2026:11:30:50 +0000] 384 518 0 200 - GET / HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0

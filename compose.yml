@@ -6,14 +6,18 @@ services:
     volumes:
       - ./apache/tarefa1.conf:/etc/apache2/sites-enabled/tarefa1.conf
       - ./apache/tarefa3.conf:/etc/apache2/sites-enabled/tarefa3.conf
+      - ./apache/tarefa5.conf:/etc/apache2/sites-enabled/tarefa5.conf
       - ./exemplo.lan:/opt/web/exemplo.lan
       - ./omeusitio.lan:/opt/web/omeusitio.lan
+      - ./novositio.lan:/opt/web/novositio.lan
       - ./certificados:/certificados
       - ./omeusitio.lan/logs:/var/log/apache2/omeusitio.lan/
     networks:
       redeapache:
         ipv4_address: 192.168.58.200
         aliases:
+          - novositio.lan
+          - www.novositio.lan
           - omeusitio.lan
           - www.omeusitio.lan
           - exemplo.lan
